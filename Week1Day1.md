@@ -1,7 +1,7 @@
 Question 1: Machine Learning is where programers feed data and the answers from the data into a program, and machine figure works to find out/predict the rules that result in the very answers from the inputed data.
 On the otherhand, traditional programming requires the input of data and the rules, and the program will return the answers that are derived by applying the rules to the inputted data.
 
-Question 2: After modifying Laurence Maroney’s code and running it twice, the two results were different from each other. Both answers were close to 22, but were off be a little bit. 
+Question 2: After modifying Laurence Maroney’s code and running it twice, the two results were different from each other. Both answers were close to 22, but were off by a little bit. The reason for the variation is because the model's parameter's are randomly initialized giving different weights to the different data. In order to end at the same result every time, we must assign a fixed seed for the weights. In other words, the machine is creating a different model each time it is run. (source https://machinelearningmastery.com/randomness-in-machine-learning/)
 
 Question 3: After running this code:
 
@@ -17,16 +17,26 @@ print(model.predict([1.0,2.0,3.0,4.0,5.0]))
 
 The results showed how the estimated prices for homes with different room numbers should be: 
 
-| Room Number        | Predicted Price        |
+| Room Number        | Predicted Price (in thousands (USD)   | 
 | ------------- |:-------------:|
 | 1     | $103.98981 |
+| 2     | $169.26509 |
+| 3     | $234.54037 |
+| 4     | $299.81567 |
+| 5     | $365.09097 |
+| 6     | $103.98981 |
 
 
-1 Room = $103.98981
-2 Rooms = 169.26509
-3 Rooms = $234.54037
-4 Rooms = $299.81567
-5 Rooms = 365.09097
+
+| Room Number        | House        | Predicted Price (in thousands (USD)   | 
+| ------------- |:-------------:|
+| 4     | $103.98981 |
+| 3     | $169.26509 |
+| 5     | $234.54037 |
+| 4     | $299.81567 |
+| 2     | $365.09097 |
+| 3     | $103.98981 |
+
 
 Therefore, the homes in Hudgins, Mathews, Mobjack, New Point Comfort present a good deal as their prices are lower than the estimated price.
 Homes Church and Moon are not a good deal, as their prices are higher than the predicted housing prices. 
