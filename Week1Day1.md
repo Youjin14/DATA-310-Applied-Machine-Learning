@@ -17,7 +17,7 @@ print(model.predict([1.0,2.0,3.0,4.0,5.0]))
 
 The results showed how the estimated prices for homes with different room numbers should be: 
 
-| Room Number        | Predicted Price (in thousands (USD)   | 
+| Room Number        | Predicted Price (in thousands (USD))   | 
 | ------------- |:-------------:|
 | 1     | $103.98981 |
 | 2     | $169.26509 |
@@ -28,9 +28,9 @@ The results showed how the estimated prices for homes with different room number
 
 
 
-| Room Number        | House        | Predicted Price (in thousands (USD)   | 
+| Room Number        | House       | Predicted Price (in thousands (USD))   | 
 | ------------- |:-------------:|-----:|
-| 4     | $399 | $299.81567 |
+| 4     | $399 |$299.81567 |
 | 3     | $97 | $234.54037 |
 | 5     | $347.5 | $365.09097 |
 | 4     | $289 | $299.81567 |
