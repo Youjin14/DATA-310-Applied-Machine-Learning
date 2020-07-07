@@ -29,13 +29,13 @@ The results showed how the estimated prices for homes with different room number
 
 
 | Room Number        | House        | Predicted Price (in thousands (USD)   | 
-| ------------- |:-------------:|
-| 4     | $103.98981 |
-| 3     | $169.26509 |
-| 5     | $234.54037 |
-| 4     | $299.81567 |
-| 2     | $365.09097 |
-| 3     | $103.98981 |
+| ------------- |:-------------:|-----:|
+| 4     | $399 | $299.81567 |
+| 3     | $97 | $234.54037 |
+| 5     | $347.5 | $365.09097 |
+| 4     | $289 | $299.81567 |
+| 2     | $250 | $169.26509 |
+| 3     | $229 | $234.54037 |
 
 
 Therefore, the homes in Hudgins, Mathews, Mobjack, New Point Comfort present a good deal as their prices are lower than the estimated price.
