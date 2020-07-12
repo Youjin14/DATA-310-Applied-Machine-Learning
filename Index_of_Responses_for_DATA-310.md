@@ -14,7 +14,7 @@
 
 [First Steps in Computer Vision by Laurence Maroney](
 
-[Text classification with TensorFlow Hub: Movie reviews](
+[Text classification with TensorFlow Hub: Movie reviews](https://youjin14.github.io/data310/Week1Day3TFHub.html)
 
 [Text classification with preprocessed text: Movie reviews](
 
