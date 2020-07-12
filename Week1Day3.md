@@ -49,3 +49,5 @@ After finding the number drawing dataset from this website, https://www.tensorfl
 - The shape of the images test set is 10,000 training images and the same 28 x 28 dimensions.
 - The probability model returned a 0.9778 accuracy in the results.
 - The numeral with the highest probability from the test labels dataset was 7.
+
+
