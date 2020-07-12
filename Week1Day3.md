@@ -43,4 +43,12 @@ but now apply it to the hand written letters MNIST dataset).
 probability from the test labels dataset.
 6. Produce the following plot for your randomly selected image from the test dataset
 
+After finding the number drawing dataset from this website, https://www.tensorflow.org/api_docs/python/tf/keras/datasets/mnist, I ran a similar code to the fashion mnist. I was unable to run it in Pycharm, but I was able to run it in Google CoLab. 
+- There were a total of 60,000 training images. I was unable to find the dimensions directly, however, from the website http://yann.lecun.com/exdb/mnist/, I was able to find out that the dimensions are 28x28.
+- The length of the labels training set is 60,000.
+- The shape of the images test set is 10,000 training images and the same 28 x 28 dimensions.
+- The probability model returned a 0.9778 accuracy in the results.
+- The numeral with the highest probability from the test labels dataset was 7.
+- 
 
+- 
