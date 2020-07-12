@@ -1,5 +1,6 @@
-##Index of Responses for DATA 310-Applied-Machine-Learning
+# Index of Responses for DATA 310-Applied-Machine-Learning
 
+## Week 1
 [July 7, responses](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Week1Day2.html)
 
 [July 7, responses code](https://youjin14.github.io/data310/July7Code.html)
@@ -12,4 +13,15 @@
 [July 8, responses](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Week1Day3.html)
 
 [First Steps in Computer Vision by Laurence Maroney](
+
+[Text classification with TensorFlow Hub: Movie reviews](
+
+[Text classification with preprocessed text: Movie reviews](
+
+
+[July, 9 responses](
+
+[Project 1](
+
+
 
