@@ -16,7 +16,7 @@
 
 [Text classification with TensorFlow Hub: Movie reviews](https://youjin14.github.io/data310/Week1Day3TFHub.html)
 
-[Text classification with preprocessed text: Movie reviews](
+[Text classification with preprocessed text: Movie reviews](https://github.com/Youjin14/data310/blob/master/Text_classification_with_preprocessed_text.ipynb)
 
 
 [July, 9 responses](
