@@ -15,7 +15,7 @@ The graph shows how as we process the model more the loss function decreases (wh
 
 ## 4. Likewise do the same for the training and validation accuracy graph
 
-https://user-images.githubusercontent.com/67920289/87259769-aa92f280-c47b-11ea-93f6-40b59aa8bd7b.png
+[](https://user-images.githubusercontent.com/67920289/87259769-aa92f280-c47b-11ea-93f6-40b59aa8bd7b.png)
 
 The graph shows how as we process the model more (more epochs) the accuracy increases. The accuracy for the training data is higher than the validation set. I also believe that the training and validation accuracy graph is the inverse of the training and validation loss. (as increased loss = decreased accuracy). The accuracy keeps increasing because the model is finding better parameters.
 
