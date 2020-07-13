@@ -19,7 +19,7 @@
 [Text classification with preprocessed text: Movie reviews](https://github.com/Youjin14/data310/blob/master/Text_classification_with_preprocessed_text.ipynb)
 
 
-[July, 9 responses](
+[July, 9 responses](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Week1Day4.html)
 
 [Project 1](
 
