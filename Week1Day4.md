@@ -9,7 +9,7 @@ The loss function measures how accurate the model is during training. An optimiz
 
 ## 3. In “text classification with preprocessed text” you produced a graph of training and validation loss.  Add the graph to this response and provide a brief explanation. 
 
-https://user-images.githubusercontent.com/67920289/87259182-669dee80-c477-11ea-8458-926be6bd4abe.png
+[](https://user-images.githubusercontent.com/67920289/87259182-669dee80-c477-11ea-8458-926be6bd4abe.png)
 
 The graph shows how as we process the model more the loss function decreases (which means the model is becoming more accurate). The training model may be more accurate with a lower loss over time in comparison to the validation loss. (https://www.kaggle.com/c/tgs-salt-identification-challenge/discussion/62261) Loss is calculated base on the train set, val_loss is calculated base on the validation set. The validation loss is the value of cost function for your cross-validation data and loss is the value of cost function for your training data. (https://datascience.stackexchange.com/questions/25267/keras-difference-beetween-val-loss-and-loss-during-training) 
 
