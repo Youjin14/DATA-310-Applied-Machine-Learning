@@ -26,15 +26,17 @@ July 9
 
 [July, 9 responses](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Week1Day4.html)
 
+Week 1 Project 1
+
 [Project 1](
 
 ## Week 2
 
 July 13
 
-[Coding with Convolutional Neural Networks by Laurence Maroney](
+[Coding with Convolutional Neural Networks by Laurence Maroney](https://github.com/Youjin14/data310/blob/master/Coding_with_Convolutional_Neural_Networks.ipynb)
 
-[TF Regression](
+[TF Regression](https://github.com/Youjin14/data310/blob/master/TF_Regression.ipynb)
 
 [TF Overfit & Underfit](
 
