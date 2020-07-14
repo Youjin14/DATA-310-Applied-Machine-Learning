@@ -32,6 +32,8 @@ July 9
 
 July 13
 
+[Coding with Convolutional Neural Networks by Laurence Maroney](
+
 [TF Regression](
 
 [TF Overfit & Underfit](
