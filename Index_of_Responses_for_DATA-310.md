@@ -38,3 +38,7 @@ July 13
 
 [TF Overfit & Underfit](
 
+July 14
+
+[July 14, responses](
+
