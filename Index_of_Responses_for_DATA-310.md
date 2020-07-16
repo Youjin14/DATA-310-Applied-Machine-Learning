@@ -28,7 +28,7 @@ July 9
 
 Week 1 Project 1
 
-[Project 1](
+[Project 1](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Project1.html)
 
 ## Week 2
 
