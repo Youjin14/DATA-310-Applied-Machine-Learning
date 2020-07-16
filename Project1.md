@@ -13,6 +13,8 @@ Without having time to set up, I believe using footage from already installed ca
 
 I believe this approach could be used if the cameras are in higher definition, there are multiple cameras in different point areas, and if the code could be more sensitive to areas where there are many people congregated/moving.
 
+[Shibuya Social Distance Detector](https://www.youtube.com/watch?v=bhqHxLICSME)
+
 
 
 
