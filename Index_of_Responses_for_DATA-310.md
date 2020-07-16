@@ -44,11 +44,11 @@ July 14
 
 [July 14, responses](
 
-[TF Images](
+[TF Images](https://github.com/Youjin14/data310/blob/master/Images.ipynb)
 
-[Text](
+[TF Text](
 
-Classifying real-world images by Laurence Maroney](
+[Classifying real-world images by Laurence Maroney](
 
 July 15
 
