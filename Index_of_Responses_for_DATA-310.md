@@ -38,7 +38,7 @@ July 13
 
 [TF Regression](https://github.com/Youjin14/data310/blob/master/TF_Regression.ipynb)
 
-[TF Overfit & Underfit](
+[TF Overfit & Underfit](https://github.com/Youjin14/data310/blob/master/Overfit%26Underfit.ipynb)
 
 July 14
 
