@@ -44,3 +44,24 @@ July 14
 
 [July 14, responses](
 
+[TF Images](
+
+[Text](
+
+Classifying real-world images by Laurence Maroney](
+
+July 15
+
+[July 15, responses](
+
+[TF Premade Estimator](
+
+[TF Linear Model](
+
+[Convolutional cats and dogs by Laurence Maroney](
+
+Week 2 Project 2
+
+[Project 2](
+
+
