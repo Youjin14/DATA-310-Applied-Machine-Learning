@@ -46,7 +46,7 @@ July 14
 
 [TF Images](https://github.com/Youjin14/data310/blob/master/Images.ipynb)
 
-[TF Text](
+[TF Text](https://github.com/Youjin14/data310/blob/master/TF_Text.ipynb)
 
 [Classifying real-world images by Laurence Maroney](
 
