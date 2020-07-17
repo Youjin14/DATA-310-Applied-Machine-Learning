@@ -58,8 +58,6 @@ July 15
 
 [TF Linear Model](
 
-[Convolutional cats and dogs by Laurence Maroney](
-
 Week 2 Project 2
 
 [Project 2](
