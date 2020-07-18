@@ -12,8 +12,7 @@ The ImageDataGenerator() is a function that will auto label images based on the 
 
 2. Describe the model architecture of the horses and humans CNN as you have
 specified it. Did you modify the number of filters in your Conv2D layers? 
-How do
-image sizes decrease as they are passed from each of your Conv2D layers to your
+How do image sizes decrease as they are passed from each of your Conv2D layers to your
 MaxPooling2D layer and on to the next iteration? Finally, which activation function
 have you selected for your output layer? What is the significance of this argument’s
 function within the context of your CNN’s prediction of whether an image is a horse
@@ -22,7 +21,9 @@ compiler?
 
 The model architecture of the horses and humans CNN has convolutional layers and a flatten layer to feed the results into the densely connected layers. In the densely connected layers, both relu and sigmoid arguments are used. The relu function is to make sure that if an output of a neuron is less than 0, set it to 0. Softmax is in the last layer so that the output of our network will be a single scalar between 0 and 1, making sure that the probability that the current image is class 1. 
 
-We did modify the number of filters in the Conv2d layers. 
+We did modify the number of filters in the Conv2d layers. This is because a pooling layer quarters the size of the image. The activation function is "sigmoid" for the output layer. This is because the model is a binary classifier, where images are either grouped to horses or humans (0 is horse and 1 is human). 
+
+In the model compiler, the loss function is set to 'binary_crossentropy' because we are doing binary classification. The optimizer is set to RMSprop because we want to set the learning rate. The learning rate parameter defines how the mathematical functions in the transformer can learn using the gradient descent 
 
 
 ## B. Regression
