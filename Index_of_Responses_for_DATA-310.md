@@ -54,7 +54,7 @@ July 15
 
 [July 15, responses](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Week2Day3.html)
 
-[TF Premade Estimator](
+[TF Premade Estimator](https://github.com/Youjin14/data310/blob/master/TF_Premade_Estimators.ipynb)
 
 [TF Linear Model](
 
