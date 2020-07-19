@@ -60,6 +60,6 @@ July 15
 
 Week 2 Project 2
 
-[Project 2](
+[Project 2](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Project2.html)
 
 
