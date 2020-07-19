@@ -56,7 +56,7 @@ July 15
 
 [TF Premade Estimator](https://github.com/Youjin14/data310/blob/master/TF_Premade_Estimators.ipynb)
 
-[TF Linear Model](
+[TF Linear Model](https://github.com/Youjin14/data310/blob/master/TF_Estimators.ipynb)
 
 Week 2 Project 2
 
