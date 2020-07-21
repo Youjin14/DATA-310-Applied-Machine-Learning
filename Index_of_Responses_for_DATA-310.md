@@ -26,7 +26,7 @@ July 9
 
 [July, 9 responses](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Week1Day4.html)
 
-Week 1 Project 1
+Project 1
 
 [Project 1](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Project1.html)
 
@@ -48,7 +48,6 @@ July 14
 
 [TF Text](https://github.com/Youjin14/data310/blob/master/TF_Text.ipynb)
 
-[Classifying real-world images by Laurence Maroney](
 
 July 15
 
@@ -58,8 +57,16 @@ July 15
 
 [TF Linear Model](https://github.com/Youjin14/data310/blob/master/TF_Estimators.ipynb)
 
-Week 2 Project 2
+Project 2
 
 [Project 2](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Project2.html)
+
+## Week 3
+
+July 20
+
+[July 20, responses](
+
+[July 21, responses](
 
 
