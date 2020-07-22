@@ -22,7 +22,11 @@ When applying the filter to the orginial array, a few processes occur. First, ev
 ## Question 2:
 Another useful method is pooling.  Apply a 2x2 filter to one of your convolved images, and plot the result.  In effect what have you accomplished by applying this filter?  Can you determine from the code which type of pooling filter is applied, and the method for selecting a pixel value (see the following snippet)?  Did the result increase in size or decrease?  Why would this method be method?  Stretch goal:  again, instead of using misc.ascent(), apply the pooling filter to one of your transformed images.
 
+![](https://user-images.githubusercontent.com/67920289/88126812-546f2f00-cba0-11ea-9e56-ddaf044ea751.png)
 
+I apploed the pooling method to the first image with only one filter. The image seems to look the same but the image is 1/4 the size. Pooling reduces the overall information in an image while still maintaing its features. (This good because the computer does not have to process so much information!)
+
+The type of pooling filter applied is known as MAX pooling. The pooling filter looks at the pixel and it's immediate neighbors to the right, beneath, and right-beneath and takes the largest pixel and loads it into the new image (information taken from Laurence Maroney Lab 3). 
 
 
 ## Question 3:
