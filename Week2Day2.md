@@ -2,18 +2,25 @@
 Last week you did an exercise where you manually applied a 3x3 array as a filter to an image of two people ascending an outdoor staircase.  Modify the existing filter and if needed the associated weight in order to apply your new filters to the image 3 times.  Plot each result, upload them to your response, and describe how each filter transformed the existing image as it convolved through the original array and reduced the object size.  What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)?  Why is the application of a convolving filter to an image useful for computer vision?  Stretch goal: instead of using the misc.ascent() image from scipy, can you apply three filters and weights to your own selected image?  Again describe the results.
 
 Filter #1: 
-![](https://user-images.githubusercontent.com/67920289/87813135-5008e600-c82f-11ea-807a-14d32d713474.png)
+![](https://user-images.githubusercontent.com/67920289/88123397-d0657900-cb98-11ea-8cf8-9c73ef4ecc2c.png)
+
+The first filter emphasized the horizontal lines in the image. 
+
 
 
 Filter #2:
+![](https://user-images.githubusercontent.com/67920289/88123436-e4a97600-cb98-11ea-9356-d96084c7d05f.png)
 
+Undergoing the filter with a new weight of 1.0, 
 
 Filter #3:
-
+![](https://user-images.githubusercontent.com/67920289/88123477-f428bf00-cb98-11ea-8af0-e9035ae5dac9.png)
 
 
 ## Question 2:
 Another useful method is pooling.  Apply a 2x2 filter to one of your convolved images, and plot the result.  In effect what have you accomplished by applying this filter?  Can you determine from the code which type of pooling filter is applied, and the method for selecting a pixel value (see the following snippet)?  Did the result increase in size or decrease?  Why would this method be method?  Stretch goal:  again, instead of using misc.ascent(), apply the pooling filter to one of your transformed images.
+
+
 
 
 ## Question 3:
