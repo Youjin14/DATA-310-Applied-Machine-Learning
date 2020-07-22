@@ -4,17 +4,19 @@ Last week you did an exercise where you manually applied a 3x3 array as a filter
 Filter #1: 
 ![](https://user-images.githubusercontent.com/67920289/88123397-d0657900-cb98-11ea-8cf8-9c73ef4ecc2c.png)
 
-The first filter emphasized the horizontal lines in the image. 
-
-
+The first filter emphasized the horizontal lines in the image, and made the image more darker. 
 
 Filter #2:
 ![](https://user-images.githubusercontent.com/67920289/88123436-e4a97600-cb98-11ea-9356-d96084c7d05f.png)
 
-Undergoing the filter with a new weight of 1.0, 
+Undergoing another filter with a new weight of 1.0, there is a stronger focus on the horizontal lines than the original and first filtered image. 
 
 Filter #3:
 ![](https://user-images.githubusercontent.com/67920289/88123477-f428bf00-cb98-11ea-8af0-e9035ae5dac9.png)
+
+The third filter had a changed weight of 2.0, and the filter emphasized the horizontal lines even more. There is a stark contrast in black and white to the lines. 
+
+When applying the filter to the orginial array, a few processes occur. First, every pixel of the image is scanned and looked at all together with its neighboring pixels (each pixel has a value). Then, we multiply out the values of the pixels with the equivalent weights defined by the filter. Convoling filters are important when analyzing an image through computer vision because it processes the image down to its raw features. After isolating abstract features of an image, a computer can better learn which label to assign new images with similar or different features.
 
 
 ## Question 2:
