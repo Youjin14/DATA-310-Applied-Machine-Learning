@@ -32,5 +32,13 @@ The type of pooling filter applied is known as MAX pooling. The pooling filter l
 ## Question 3:
 The lecture for today (Coding with Convolutional Neural Network) compared the application of our previously specified deep neural network with a newly specified convolutional neural network.  Instead of using the fashion_MNIST dataset, use the mnist dataset (the hand written letters) to train and compare your DNN and CNN output. Were you able to improve your model by adding the Conv2D and MaxPooling2D layers to your neural network?  Plot the convolutions graphically, include them in your response and describe them.  Edit the convolutions be changing the 32s to either 16 or 64 and describe what impact this had on accuracy and training time.  What happens if you add more convolution layers?
 
+I was able to improve the model by adding the two Conv2D and two MaxPooling2D layers to the neural network. With two layers of the Conv2D and MaxPooling2D layers, the accuracy improved from 0.9775 to 0.9926. Changing the convolutions to 62s, I noticed the accuracy was was actually a little bit lower than 32 filters.
+
+![](https://user-images.githubusercontent.com/67920289/88130717-41ad2800-cba9-11ea-946f-b5053125c965.png)
+
+The graph shows how the accuracy of the network increased when the convolution and pooling layers were applied!
+
+
+
 
 
