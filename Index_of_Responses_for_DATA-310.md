@@ -42,7 +42,7 @@ July 13
 
 July 14
 
-[July 14, responses](
+[July 14, responses](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Week2Day2.html)
 
 [TF Images](https://github.com/Youjin14/data310/blob/master/Images.ipynb)
 
