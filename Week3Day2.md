@@ -2,7 +2,7 @@
 1. How did you split the labels from the training set? What was the name of the labels
 dataset?
 
-The labels from the training set was split from the testing data by referencing separate files. After a pandas data set was created, the training set labels were named 'SepalLength', 'SepalWidth', 'PetalLength', 'PetalWidth'. (Discluded Species becuause that is what we are testing for)
+The labels from the training set were split from the testing data by referencing separate files. After a pandas data set was created, the training set labels were named 'SepalLength', 'SepalWidth', 'PetalLength', 'PetalWidth'. (Discluded Species because that is what we are testing for)
 
 2. List 5 different estimators from tf.estimator and include the base command as you would write it in a script (for example this script used the tf.estimator.DNNClassifier() function from the API).
 
@@ -23,7 +23,7 @@ classifier = tf.estimator.DNNClassifier(
   
 3. What are the purposes input functions and defining feature columns?
 
-The purpose of the input functions is to return a dataset object with a two-element tuple containing the labels and features. The purpose of defining feature columns is to help describe how the model should use raw input data from the features dictionary. When you build an Estimator model, you pass it a list of feature columns that describes each of the features you want the model to use.
+The purpose of the input functions is to return a dataset object with a two-element tuple containing the labels and features. The purpose of defining feature columns is to help describe how the model should use raw input data from the features dictionary. When you build an Estimator model, you pass it a list of feature columns that describe each of the features you want the model to use.
 
 4. Describe the command classifier.train() in detail. What is the classifier and how did
 you define it? Which nested function (and how have you defined it) are you applying
@@ -66,7 +66,7 @@ a cross featured column? Did your attempt to capture the interaction between age
 and gender and incorporate it into your model improve performance? Include and
 interpret your predicted probabilities and ROC curve plots.
 
-The feature columns were dervived from the categorical and numeric columns already provided from the dataset. Feature columns describe how the model should convert each feature. The results from the initial output returns many statistics revealing the training accuracy, average loss, and more. The purpose of adding a cross featured column allows the model to learn differences between different feature combinations. The model's accuracy decreased when adding the combination feature between age and gender and incorporating it into the model. 
+The feature columns were derived from the categorical and numeric columns already provided from the dataset. Feature columns describe how the model should convert each feature. The results from the initial output return many statistics revealing the training accuracy, average loss, and more. The purpose of adding a cross featured column allows the model to learn the differences between different feature combinations. The model's accuracy decreased when adding the combination feature between age and gender and incorporating it into the model. 
 
 Feature Column:
 
