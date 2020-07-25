@@ -61,7 +61,7 @@ Result: cat2.jpg is a cat
 
 Result: cat3.jpg is a cat
 
-![](https://github.com/Youjin14/DATA-310-Applied-Machine-Learning/files/4974907/IMG_5866.pdf)
+![](https://user-images.githubusercontent.com/67920289/88449224-1af22a00-ce13-11ea-8fda-502d99ddfb7a.jpg)
 This is a picture of my dog, Libby!
 
 Result: IMG_5866.jpg is a dog
