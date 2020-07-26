@@ -16,8 +16,6 @@ July 8
 
 [July 8, responses](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Week1Day3.html)
 
-[First Steps in Computer Vision by Laurence Maroney](
-
 [Text classification with TensorFlow Hub: Movie reviews](https://youjin14.github.io/data310/Week1Day3TFHub.html)
 
 [Text classification with preprocessed text: Movie reviews](https://github.com/Youjin14/data310/blob/master/Text_classification_with_preprocessed_text.ipynb)
@@ -67,7 +65,7 @@ Project 2
 
 [July 21, responses](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Week3Day2.html)
 
-[July 22, responses](
+[July 22, responses](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Week3Day3.html)
 
 Project 3
 
