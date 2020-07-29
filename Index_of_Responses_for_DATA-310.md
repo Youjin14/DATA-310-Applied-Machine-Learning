@@ -67,8 +67,12 @@ Project 2
 
 [July 22, responses](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Week3Day3.html)
 
-Project 3
-
 [Project 3](
+
+## Week 4
+
+[July 27, responses](
+
+[July 28, responses](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Week4Day2.html)
 
 
