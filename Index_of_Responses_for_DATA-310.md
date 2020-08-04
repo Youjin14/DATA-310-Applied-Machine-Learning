@@ -79,6 +79,10 @@ Project 2
 
 [Project 4](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Project4.html)
 
+## Final Project
+
+[Final Project Poster](
+
 ## Friday Meet-Ups
 
 [July 24, Meet-up](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/FridayMeet2.html)
