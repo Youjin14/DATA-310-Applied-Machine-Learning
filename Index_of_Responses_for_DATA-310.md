@@ -24,7 +24,7 @@ July 9
 
 [July, 9 responses](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Week1Day4.html)
 
-Project 1
+July 10
 
 [Project 1](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Project1.html)
 
@@ -55,7 +55,7 @@ July 15
 
 [TF Linear Model](https://github.com/Youjin14/data310/blob/master/TF_Estimators.ipynb)
 
-Project 2
+July 16
 
 [Project 2](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/Project2.html)
 
