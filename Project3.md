@@ -13,7 +13,7 @@ Daily responses from this week - due by Saturday 5PM. Project 3 due by Sunday mi
 
 I used an Sequential keras model becauase A Sequential model is appropriate for a plain stack of layers where each layer has exactly one input tensor and one output tensor.
 
-For the dataset, I decided to use a basic Deep Neural Network and a more complex Convolutional Neural Network. The DNN 
+For the dataset, I decided to use a basic Deep Neural Network and a more complex Convolutional Neural Network. The DNN comprised of four total layers, Flatten() and three Dense() layers of 128, 64, and 1. I also set the activation function to relu because the model would take less time to train and run (due to negative numbers being set to zero). I then applied RMSProp because 
 
 I first unloaded the images into testing and training groups and then 
 
