@@ -11,9 +11,9 @@ H. Write a one to two page description regarding your work. Be sure to include p
 For Monday: Data - identify at least 3 sources that can openly provide the data needed for input data to train your model. Identify the variables that you expect to use in the specification of your machine learning method. What feature will be seeking to predict as a means to solve your problem?
 Daily responses from this week - due by Saturday 5PM. Project 3 due by Sunday midnight.
 
-I used an Sequential keras model becauase A Sequential model is appropriate for a plain stack of layers where each layer has exactly one input tensor and one output tensor.
-
-For the dataset, I decided to use a basic Deep Neural Network and a more complex Convolutional Neural Network. The DNN comprised of four total layers, Flatten() and three Dense() layers of 128, 64, and 1. I also set the activation function to relu because the model would take less time to train and run (due to negative numbers being set to zero). I then applied RMSProp because 
+    For the dataset, I decided to use a basic Deep Neural Network and a more complex Convolutional Neural Network. Both are sequential keras models because it was recommended by Professor Frazier and it is a good model for is appropriate for a plain stack of layers where each layer has exactly one input tensor and one output tensor.
+    The DNN comprised of four total layers, Flatten() and three Dense() layers of 128, 64, and 1. I also set the activation function to relu because the model would take less time to train and run (due to negative numbers being set to zero). I then applied RMSProp because I believed it would help the learning rate and decrease the loss. The loss was set to Mean Square Error to measure how good the prediction model did at predicting the expected outcome. MSE would be good for the regression model and also because the it would penalize larger outliers (which is good because we are assuming the targets are noramally distributed).
+    For the convolutional neural network, the model had many more layers, totalling 10. There were 3 sets of Conv2D and MaxPooling2D layers starting from 16, 32, then 64. Then there is a layer to flatter the data. Lastly, there are three Dense() layers similar to the CNN. 
 
 I first unloaded the images into testing and training groups and then 
 
