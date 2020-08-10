@@ -13,6 +13,6 @@ Daily responses from this week - due by Saturday 5PM. Project 3 due by Sunday mi
 
 I used an Sequential keras model becauase A Sequential model is appropriate for a plain stack of layers where each layer has exactly one input tensor and one output tensor.
 
-
+For the dataset, I decided to use a basic Deep Neural Network and a more complex Convolutional Neural Network. 
 
 
