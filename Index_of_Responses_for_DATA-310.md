@@ -83,4 +83,6 @@ July 16
 
 ## Friday Meet-Ups
 
+[July 7, meetup](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/FridayMeetup1.html)
+
 [July 24, Meet-up](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/FridayMeet2.html)
