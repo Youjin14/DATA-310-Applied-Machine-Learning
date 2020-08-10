@@ -79,7 +79,7 @@ July 16
 
 ## Final Project
 
-[Final Project Poster](
+[Final Project](https://youjin14.github.io/DATA-310-Applied-Machine-Learning/FinalProject.html)
 
 ## Friday Meet-Ups
 
