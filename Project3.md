@@ -7,4 +7,79 @@ I first unloaded the images and then separated them into testing and training gr
 
 Unfortunately, I was unable to record the results before my laptop restarted. However, for the CNN model the mse and loss were both very high. The first epoch showed the loss and mse to be in the hundreds of thousands but by the tenth epoch, it was in the lower (ten) thousands. I believe if I ran the model with more epochs, the loss and mse would be much lower. For the DNN model, I was unable to receive any results after my laptop restarted for the second time after running the first epoch (it took around 30 minutes for the first epoch to run). 
 
+This is how I set the code:
+import os
+import zipfile
+import tensorflow as tf
+import glob
+import pandas as pd
+import numpy as np
+from numpy import genfromtxt
+from io import StringIO
+import re
+from matplotlib.pyplot import imshow
+from tensorflow.keras.optimizers import RMSprop
+import keras_preprocessing
+from keras.preprocessing import image
+import PIL
+from PIL import Image
 
+raw_files = glob.glob('/Users/youjinlee/PycharmProjects/Week1Day2/raw_images/*.jpeg')
+raw_files.sort(key=lambda f: int(re.sub('\D', '', f)))
+images = np.array([np.array(Image.open(raw_images)) for raw_images in raw_files])
+labels = genfromtxt('/Users/youjinlee/Desktop/labels.csv', delimiter=',')
+
+train_imgs = images[0:2999]
+train_labs = labels[1:3000, 1]
+
+test_imgs = images[3000:3199]
+test_labs = labels[3001:3200, 1]
+
+​
+len(train_imgs)
+len(train_labs)
+​
+len(test_imgs)
+len(test_labs)
+
+# DNN
+model = tf.keras.models.Sequential([
+  tf.keras.layers.Flatten(),
+  tf.keras.layers.Dense(128, activation = tf.nn.relu),
+  tf.keras.layers.Dense(64, activation = tf.nn.relu),
+  tf.keras.layers.Dense(1)])
+model.compile(optimizer=RMSprop(lr=0.001), loss='mse', metrics=['mae','mse'])
+model.fit(train_imgs, train_labs, epochs=10, steps_per_epoch=93, batch_size=32)
+test_loss = model.evaluate(test_imgs, test_labs)
+
+print('\nTest accuracy:', test_loss)
+
+# CNN
+model = tf.keras.models.Sequential([
+  tf.keras.layers.Conv2D(16, (3, 3), activation=tf.nn.relu, input_shape=(480, 480, 3)),
+  tf.keras.layers.MaxPooling2D(2, 2),
+  tf.keras.layers.Conv2D(32, (3, 3), activation=tf.nn.relu),
+  tf.keras.layers.MaxPooling2D(2, 2),
+  tf.keras.layers.Conv2D(64, (3, 3), activation=tf.nn.relu),
+  tf.keras.layers.MaxPooling2D(2, 2),
+  tf.keras.layers.Flatten(),
+  tf.keras.layers.Dense(128, activation=tf.nn.relu),
+  tf.keras.layers.Dense(64, activation=tf.nn.relu),
+  tf.keras.layers.Dense(1)])
+model.compile(optimizer=RMSprop(lr=0.001), loss='mse', metrics=['mae','mse'])
+model.fit(train_imgs,train_labs,batch_size=100,epochs= 5, steps_per_epoch = 90)
+test_loss, test_acc = model.evaluate(test_imgs, test_labs, verbose = 2)
+
+print('\nTest accuracy:', test_acc)
+
+from tensorflow.keras.preprocessing import image
+img = image.load_img('\\Users\\Jack\\PycharmProjects\\Project3\\Accra1\\88.jpeg', target_size=(480, 480))
+x = image.img_to_array(img)
+x = np.expand_dims(x, axis=0)
+val_img = np.vstack([x])
+val_img = val_img / 255.0
+print(model.predict(val_img))
+imshow(np.asarray(train_imgs[310]))
+train_labs[310]
+
+(I am running my DNN currently! Thank you!)
