@@ -5,9 +5,10 @@ For the convolutional neural network, the model had many more layers, totalling 
 
 I first unloaded the images and then separated them into testing and training groups. The training group had a total of 2999 images and the testing group had 199. For the DNN model, there was a total of 10 epochs with a batch size of 32. I thought these numbers would return results quicker.The CNN model only had 5 epochs with a batch size of 100 because it took longer to run the model.
 
-Unfortunately, I was unable to record the results before my laptop restarted. However, for the CNN model the mse and loss were both very high. The first epoch showed the loss and mse to be in the hundreds of thousands but by the tenth epoch, it was in the lower (ten) thousands. I believe if I ran the model with more epochs, the loss and mse would be much lower. For the DNN model, I was unable to receive any results after my laptop restarted for the second time after running the first epoch (it took around 30 minutes for the first epoch to run). 
+Unfortunately, I was unable to record the results before my laptop restarted. However, for the CNN model the mse and loss were both very high. The first epoch showed the loss and mse to be in the hundreds of thousands but by the tenth epoch, it was in the lower hundreds. I believe if I ran the model with more epochs, the loss and mse would be much lower. For the DNN model, I was unable to receive any results after my laptop restarted for the second time after running the first epoch (it took around 30 minutes for the first epoch to run). 
 
 UPDATE: The first epoch for the DNN returned: loss: 4464688640.0000 - mae: 31712.5195 - mse: 4464688640.0000
+tenth epoch: loss: 387.6601 - mae: 14.0077 - mse: 387.6601
 
 This is how I set the code:
 import os
