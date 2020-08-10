@@ -7,6 +7,8 @@ I first unloaded the images and then separated them into testing and training gr
 
 Unfortunately, I was unable to record the results before my laptop restarted. However, for the CNN model the mse and loss were both very high. The first epoch showed the loss and mse to be in the hundreds of thousands but by the tenth epoch, it was in the lower (ten) thousands. I believe if I ran the model with more epochs, the loss and mse would be much lower. For the DNN model, I was unable to receive any results after my laptop restarted for the second time after running the first epoch (it took around 30 minutes for the first epoch to run). 
 
+UPDATE: The first epoch for the DNN returned: loss: 4464688640.0000 - mae: 31712.5195 - mse: 4464688640.0000
+
 This is how I set the code:
 import os
 import zipfile
