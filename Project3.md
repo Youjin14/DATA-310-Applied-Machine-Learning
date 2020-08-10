@@ -10,6 +10,10 @@ Unfortunately, I was unable to record the results before my laptop restarted. Ho
 UPDATE: The first epoch for the DNN returned: loss: 4464688640.0000 - mae: 31712.5195 - mse: 4464688640.0000
 tenth epoch: loss: 387.6601 - mae: 14.0077 - mse: 387.6601
 
+![accra310](https://user-images.githubusercontent.com/67920289/89759882-1f783d00-dab9-11ea-83d5-57524942d4fd.png)
+
+A picture I tested predicted the population to be 2.115444. However, the training set believed the population to be 8.7568998336792. There is not a large difference in this image because there are not many buildings, but the range may be larger for more populated areas.
+
 This is how I set the code:
 import os
 import zipfile
@@ -76,7 +80,7 @@ test_loss, test_acc = model.evaluate(test_imgs, test_labs, verbose = 2)
 print('\nTest accuracy:', test_acc)
 
 from tensorflow.keras.preprocessing import image
-img = image.load_img('\\Users\\Jack\\PycharmProjects\\Project3\\Accra1\\88.jpeg', target_size=(480, 480))
+img = image.load_img('/Users/youjinlee/PycharmProjects/Week1Day2/raw_images/310.jpeg', target_size=(480, 480))
 x = image.img_to_array(img)
 x = np.expand_dims(x, axis=0)
 val_img = np.vstack([x])
